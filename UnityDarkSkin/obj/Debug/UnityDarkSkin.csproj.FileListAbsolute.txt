@@ -1,0 +1,52 @@
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe.config
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.pdb
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csprojResolveAssemblyReference.cache
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.g.cs
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.cache
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.lref
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.g.resources
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.Properties.Resources.resources
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csproj.GenerateResource.Cache
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.exe
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.pdb
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.g.cs
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.baml
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\Resources\Theme\Theme.baml
+c:\users\kira\documents\visual studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.baml
+c:\Users\Kira\Documents\Visual Studio 2017\Projects\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_Content.g.cs
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe.config
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.pdb
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csprojResolveAssemblyReference.cache
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Resources\Theme\Theme.baml
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.g.cs
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.g.cs
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_Content.g.cs
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.cache
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.lref
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.baml
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.baml
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.g.resources
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.Properties.Resources.resources
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csproj.GenerateResource.Cache
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.exe
+C:\Users\Kira\Documents\Visual Studio 2017\Projects\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.pdb
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe.config
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.pdb
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csprojResolveAssemblyReference.cache
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Resources\Theme\Theme.baml
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.g.cs
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.g.cs
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_Content.g.cs
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.cache
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.lref
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.baml
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.baml
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.g.resources
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.Properties.Resources.resources
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csproj.GenerateResource.Cache
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csproj.CoreCompileInputs.cache
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.exe
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.pdb

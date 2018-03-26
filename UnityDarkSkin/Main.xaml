@@ -1,0 +1,68 @@
+﻿<Window x:Class="UnityDarkSkin.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnityDarkSkin"
+        mc:Ignorable="d"
+        Title="Change Unity Skin" Height="221" Width="365.5" Background="Black" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None">
+    <Grid x:Name="bg" Margin="1" Background="White" >
+        <!-- black: FF343434 -->
+
+        <TabControl Margin="0" HorizontalContentAlignment="Left">
+            <TabItem x:Name="tabmain" Header="Change Unity Skin" Foreground="Black">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#ffffff" Offset="0"/>
+                        <GradientStop Color="#FFE6E6E6" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Margin="1,0,1,1">
+                    <Border Background="#000" Opacity="0.08" d:IsLocked="True" />
+                    <Border x:Name="tabbar" VerticalAlignment="Top" Height="31">
+                        <Separator Background="Black" VerticalContentAlignment="Bottom" Margin="0,0,0,-1" VerticalAlignment="Bottom" />
+                        <Border.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#70000000" Offset="1"/>
+                                <GradientStop Color="#fff" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                    </Border>
+                    <TextBox Name="txt_unityLocation" Margin="10,4,10,0" Height="20" VerticalAlignment="Top" Background="#FFE6E6E6" IsReadOnly="True" Foreground="#FFE6E6E6" Focusable="False" IsUndoEnabled="False" MaxLines="1" />
+                    <Button x:Name="btn_loadUnity" Content="Load Unity" HorizontalAlignment="Left" Margin="166,42,0,0" VerticalAlignment="Top" Width="174" Height="25" Click="Btn_Click" Background="#FFE6E6E6" FontSize="14" IsEnabled="False"/>
+                    <ComboBox x:Name="versionSelector" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="140" SelectedIndex="0" Foreground="#FFB4B4B4" BorderBrush="Black"  Height="25" FontSize="14" Background="#FFE6E6E6">
+                        <TextBlock Text="item 1"/>
+                    </ComboBox>
+                    <Label x:Name="txt_proskinlabel" Content="Pro skin:" Margin="41,93,0,0" VerticalAlignment="Top" Foreground="#FFB4B4B4" FontWeight="Bold" FontSize="36" HorizontalContentAlignment="Center" HorizontalAlignment="Left" />
+                    <Image x:Name="btn_changeSkin" MouseDown="Btn_MouseDown" HorizontalAlignment="Left" Height="47" Margin="201,100,0,0" VerticalAlignment="Top" Width="117" Source="Resources/imagens/proSkin_0.png" Cursor="Hand"/>
+
+
+
+
+
+                    <Label Content="Created by: Kira" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="Black" FontWeight="Bold" Width="155" Height="34" FontSize="20" Margin="0,0,-1,-1"  >
+                        <Label.Effect>
+                            <DropShadowEffect ShadowDepth="2" BlurRadius="8"/>
+                        </Label.Effect>
+                    </Label>
+
+                    <Label Content="Created by: Kira" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="Black" FontWeight="Bold" Width="155" Height="34" FontSize="20" Margin="0,0,2,-1" >
+                        <Label.Effect>
+                            <DropShadowEffect ShadowDepth="2" Direction="150" BlurRadius="8"/>
+                        </Label.Effect>
+                    </Label>
+                    <Label Content="Created by: Kira" HorizontalAlignment="Right" Margin="0,0,7,7" VerticalAlignment="Bottom" Foreground="#FF00C5FF" FontWeight="Bold" FontSize="20" Height="27" Width="149" >
+                        <Label.Effect>
+                            <DropShadowEffect ShadowDepth="0" BlurRadius="8"/>
+                        </Label.Effect>
+                    </Label>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Grid x:Name="appmove" Background="#00000000" Height="23" VerticalAlignment="Top" MouseDown="Appmove_MouseDown" MouseMove="Appmove_MouseMove" MouseUp="Appmove_MouseUp">
+            <Button x:Name="btn_close" Click="Btn_Click" Content="x" HorizontalAlignment="Right" Margin="0" Width="26" VerticalContentAlignment="Top" Foreground="Red" FontSize="20" Padding="0,-5,0,0" Background="#00DDDDDD" FontWeight="Bold"/>
+
+        </Grid>
+    </Grid>
+</Window>
