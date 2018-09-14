@@ -103,7 +103,7 @@ namespace UnityDarkSkin
             tabbar.Background = new LinearGradientBrush(isWhite ? Colors.White : GetColorFromHex("#404040"), GetColorFromHex("#70000000"), new Point(0.5, 0), new Point(0.5, 1));
             tabmain.Background = new LinearGradientBrush(isWhite ? GetColorFromHex("#E6E6E6") : GetColorFromHex("464646"), isWhite ? GetColorFromHex("#ffffff") : GetColorFromHex("#404040"), new Point(0.5, 0), new Point(0.5, 1));
             tabmain.Foreground = new SolidColorBrush(isWhite ? GetColorFromHex("#343434") : GetColorFromHex("#B4B4B4"));
-            txt_unityLocation.Foreground = txt_proskinlabel.Foreground = btn_close.Foreground = versionSelector.BorderBrush = versionSelector.Foreground = btn_loadUnity.Foreground = tabmain.Foreground;
+            txt_unityLocation.Foreground = txt_proskinlabel.Foreground = txt_close.Foreground = versionSelector.BorderBrush = versionSelector.Foreground = btn_loadUnity.Foreground = tabmain.Foreground;
             txt_unityLocation.Background = btn_loadUnity.Background = versionSelector.Background = isWhite? new SolidColorBrush(GetColorFromHex("#E6E6E6")): bg.Background;
             
             foreach (var i in versionSelector.Items)
@@ -153,24 +153,33 @@ namespace UnityDarkSkin
         }
         SkinData FindSkinData(SkinDataType type)
         {
-            byte[] d = new byte[] { 132, 192, (byte)type, 4, 51, 192, 94, 195, 139, 6, 94, 195 };
+            SkinData found = SearchSkinData(type);
+            /*if (found == null)
+                found = SearchSkinData2018dot3(type);*/
+            return found;
+        }
+        SkinData SearchSkinData(SkinDataType type)
+        {
+            int[] aob = { 132, 192, (byte)type, 4, 51, 192, 94, 195, 139, 6, 94, 195 };
             if (Environment.Is64BitOperatingSystem)
-                d = new byte[] { 132, 192, (byte)type, 8, 51, 192, 72, 131, 196, 32, 91, 195, 139, 3, 72, 131, 196, 32, 91, 195 };
+                aob =  new int[]{ 132, 192, (byte)type, 8, 51, 192, 72, 131, 196, -1, 91, 195, 139, 3, 72, 131, 196, -1, 91, 195 };
+            //   2018.3           132, 192, 117,        8, 51, 192, 72, 131, 196, 48, 91, 195, 139, 3, 72, 131, 196, 48, 91, 195 };*/
+            //   2018.2           132, 192, 117,        8, 51, 192, 72, 131, 196, 32, 91, 195, 139, 3, 72, 131, 196, 32, 91, 195
 
-            int c = 0;
             SkinData found = null;
+            int c = 0;
             for (int x = 0; x < appdata.Length; x++)
             {
-                if (c >= d.Length)
+                if (c >= aob.Length)
                 {
-                    int i = x - d.Length + 2;
-                    if (appdata[i] == d[2])
+                    int i = x - aob.Length + 2;
+                    if (appdata[i] == aob[2])
                         found = new SkinData(type, i);
                     break;
                 }
                 else
                 {
-                    if (d[c] == appdata[x])
+                    if (aob[c] == -1 || aob[c] == appdata[x])
                         c++;
                     else
                         c = 0;
@@ -234,15 +243,32 @@ namespace UnityDarkSkin
 
         private void Btn_MouseDown(object sender, MouseButtonEventArgs e)
         {
+
             string name = (sender as Image).Name;
             ParseCommand(name);
+        }
+
+        private void Btn_Close_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Grid img = sender as Grid;
+            if (img.Tag != null) return;
+            img.Tag = 1;
+        }
+
+        private void Btn_Close_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+            Grid img = sender as Grid;
+            if (img.Tag == null) return;
+            img.Tag = null;
+            ParseCommand(img.Name);
         }
         void ParseCommand(string name)
         {
             if (name == "btn_loadUnity")
             {
                 UnitySelectedIndex = versionSelector.SelectedIndex;
-                Process[] plist = Process.GetProcessesByName("Unity");
+                Process[] plist = { };// Process.GetProcessesByName("Unity");
                 if (plist.Any())
                 {
                     MessageBox.Show("Unity process already running, close and try again.", "Error!", MessageBoxButton.OK, MessageBoxImage.Error);

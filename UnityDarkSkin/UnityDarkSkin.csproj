@@ -94,9 +94,9 @@
     <Compile Include="Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
-    <Page Include="Resources\Theme\Theme.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Resources\Theme\UnitySkin.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -133,5 +133,6 @@
   <ItemGroup>
     <Content Include="Resources\icons\unity.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

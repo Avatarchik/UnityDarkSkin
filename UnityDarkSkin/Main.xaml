@@ -28,9 +28,9 @@
                             </LinearGradientBrush>
                         </Border.Background>
                     </Border>
-                    <TextBox Name="txt_unityLocation" Margin="10,4,10,0" Height="20" VerticalAlignment="Top" Background="#FFE6E6E6" IsReadOnly="True" Foreground="#FFE6E6E6" Focusable="False" IsUndoEnabled="False" MaxLines="1" />
-                    <Button x:Name="btn_loadUnity" Content="Load Unity" HorizontalAlignment="Left" Margin="166,42,0,0" VerticalAlignment="Top" Width="174" Height="25" Click="Btn_Click" Background="#FFE6E6E6" FontSize="14" IsEnabled="False"/>
-                    <ComboBox x:Name="versionSelector" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="140" SelectedIndex="0" Foreground="#FFB4B4B4" BorderBrush="Black"  Height="25" FontSize="14" Background="#FFE6E6E6">
+                    <TextBox Name="txt_unityLocation" Margin="10,4,10,0" Height="22" VerticalAlignment="Top" Background="#FFE6E6E6" IsReadOnly="True" Foreground="#FFE6E6E6" Focusable="False" IsUndoEnabled="False" MaxLines="1" />
+                    <Button x:Name="btn_loadUnity" Content="Load Unity" HorizontalAlignment="Left" Margin="233,42,0,0" VerticalAlignment="Top" Width="118.5" Height="25" Click="Btn_Click" Background="#FFE6E6E6" FontSize="14" IsEnabled="False"/>
+                    <ComboBox x:Name="versionSelector" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="218" SelectedIndex="0" Foreground="#FFB4B4B4" BorderBrush="Black"  Height="25" FontSize="14" Background="#FFE6E6E6">
                         <TextBlock Text="item 1"/>
                     </ComboBox>
                     <Label x:Name="txt_proskinlabel" Content="Pro skin:" Margin="41,93,0,0" VerticalAlignment="Top" Foreground="#FFB4B4B4" FontWeight="Bold" FontSize="36" HorizontalContentAlignment="Center" HorizontalAlignment="Left" />
@@ -60,9 +60,9 @@
                 </Grid>
             </TabItem>
         </TabControl>
-        <Grid x:Name="appmove" Background="#00000000" Height="23" VerticalAlignment="Top" MouseDown="Appmove_MouseDown" MouseMove="Appmove_MouseMove" MouseUp="Appmove_MouseUp">
-            <Button x:Name="btn_close" Click="Btn_Click" Content="x" HorizontalAlignment="Right" Margin="0" Width="26" VerticalContentAlignment="Top" Foreground="Red" FontSize="20" Padding="0,-5,0,0" Background="#00DDDDDD" FontWeight="Bold"/>
-
+        <Grid x:Name="appmove" Background="#00000000" Height="23" VerticalAlignment="Top" MouseDown="Appmove_MouseDown" MouseMove="Appmove_MouseMove" MouseUp="Appmove_MouseUp"/>
+        <Grid x:Name="btn_close" HorizontalAlignment="Right" Margin="0" Width="26" Background="#00000000" MouseLeftButtonDown="Btn_Close_MouseDown" MouseLeftButtonUp="Btn_Close_MouseUp" Cursor="Hand" VerticalAlignment="Top" Height="23">
+            <Label x:Name="txt_close" Content="x" Foreground="Red" FontSize="20" Background="{x:Null}" FontWeight="Bold" Padding="0" Margin="6.288,-5.339,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="False"/>
         </Grid>
     </Grid>
 </Window>

@@ -36,13 +36,11 @@ C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSki
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.exe
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\bin\Debug\UnityDarkSkin.pdb
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csprojResolveAssemblyReference.cache
-C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Resources\Theme\Theme.baml
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.g.cs
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.g.cs
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_Content.g.cs
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.cache
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin_MarkupCompile.lref
-C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.baml
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Main.baml
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.g.resources
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.Properties.Resources.resources
@@ -50,3 +48,5 @@ C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSki
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.csproj.CoreCompileInputs.cache
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.exe
 C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\UnityDarkSkin.pdb
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\App.baml
+C:\Users\Kira\source\repos\C#\UnityDarkSkin\UnityDarkSkin\obj\Debug\Resources\Theme\UnitySkin.baml

@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:UnityDarkSkin"
              StartupUri="Main.xaml">
     <Application.Resources>
-        <ResourceDictionary Source="./Resources/Theme/Theme.xaml" />
+        <ResourceDictionary Source="Resources/Theme/UnitySkin.xaml"/>
     </Application.Resources>
 </Application>
