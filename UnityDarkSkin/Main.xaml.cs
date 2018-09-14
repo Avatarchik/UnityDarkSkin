@@ -268,7 +268,7 @@ namespace UnityDarkSkin
             if (name == "btn_loadUnity")
             {
                 UnitySelectedIndex = versionSelector.SelectedIndex;
-                Process[] plist = { };// Process.GetProcessesByName("Unity");
+                Process[] plist = Process.GetProcessesByName("Unity");
                 if (plist.Any())
                 {
                     MessageBox.Show("Unity process already running, close and try again.", "Error!", MessageBoxButton.OK, MessageBoxImage.Error);
